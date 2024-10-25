@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <title>PokeTienda</title>
+</head>
+
+<body>
+    <main>
+        <div class="titulo m-2 d-flex justify-content-center">
+            <h1>Bienvenidos a la Tienda Pokémon</h1>
+        </div>
+        <div class="container">
+            <div class="tienda">
+                <h2>Seleccionar una región</h2>
+                <select id="region-select" class="form-control">
+                    <option value="">Seleccionar una región</option>
+                </select>
+                <div class="row m-2" id="pokemon-container">
+                </div>
+            </div>
+            <button id="ir-carrito" class=" btn">Ir al Carrito</button>
+        </div>
+    </main>
+    <script src="carrito.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
